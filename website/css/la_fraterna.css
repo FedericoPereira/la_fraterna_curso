@@ -74,6 +74,7 @@ header .overlay {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 @media only screen and (max-device-width: 1200px) {
     .parallax {
@@ -112,4 +113,19 @@ header .overlay {
 
 /* col-lg (Large) */
 @media (min-width: 992px) {
+}
+
+#containerVivero {
+    /* The image used */
+    background-image: url("../img/tunas.JPG");
+    background-color: rgba(255, 255, 255, 0.3)
+
+    /* Set a specific height */
+    height: 650px; 
+
+    /* Create the vivero scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
